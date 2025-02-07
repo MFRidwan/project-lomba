@@ -29,13 +29,14 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px
+    margin-top: 100px;
 }
 
 .card {
     width: 280px;
     background-color: #f0f0f0;
     border-radius: 5px;
+    overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0, 2);
     margin: 20px;
 }
@@ -91,9 +92,8 @@ p {
 .row {
     margin-top: 5%;
     display: flex;
-    justify-content: space-evenly;
-    width: 90rem;
-    margin-left: -170px;
+    width: 80rem;
+    margin-left: -85px;
 }
 
 .tentang-kami-col1{
@@ -101,6 +101,8 @@ p {
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
+    margin-left: 180px;
+    width: 100px;
     padding: 20px 12px;
     box-sizing: border-box;
 }
@@ -112,5 +114,5 @@ p {
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    margin-left: -100px;
+    margin-left: 100px;
 }
